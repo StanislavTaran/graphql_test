@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server/app.js"
+    "dev": "nodemon server/app.js",
+    "format": "prettier --write ./**/*.js "
   },
   "author": "Stanislav Taran",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "express-graphql": "^0.12.0",
     "graphql": "^15.4.0",
     "mongoose": "^5.10.16",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.1"
   }
 }
